@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Number-Converter/static/css/main.0d0cb51b.css",
+    "main.js": "/Number-Converter/static/js/main.22d1e122.js",
+    "static/js/453.76182705.chunk.js": "/Number-Converter/static/js/453.76182705.chunk.js",
+    "index.html": "/Number-Converter/index.html",
+    "main.0d0cb51b.css.map": "/Number-Converter/static/css/main.0d0cb51b.css.map",
+    "main.22d1e122.js.map": "/Number-Converter/static/js/main.22d1e122.js.map",
+    "453.76182705.chunk.js.map": "/Number-Converter/static/js/453.76182705.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d0cb51b.css",
+    "static/js/main.22d1e122.js"
+  ]
+}
