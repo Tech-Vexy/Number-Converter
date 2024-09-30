@@ -1,0 +1,187 @@
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cccccc;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Increase the container width */
+    max-width: 1200px; /* Limit the max width for larger screens */
+    margin: 40px auto; /* Center container and add space from top */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.light {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555;
+    align-self: flex-start; /* Align labels to the left */
+}
+
+.converter-input, .converter-select {
+    width: 100%;
+    max-width: 600px; /* Max width for larger screens */
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.converter-input:focus, .converter-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.convert-button, .copy-button {
+    width: 100%; /* Full width for buttons */
+    max-width: 600px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.convert-button:hover, .copy-button:hover {
+    background-color: #0056b3;
+}
+
+.theme-button {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.theme-button:hover {
+    background-color: #555;
+}
+
+.converter-result {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    padding: 12px;
+    background-color: #e7f1ff;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.history-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.history-list li {
+    background-color: #e7f1ff;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+    font-size: 1.1em;
+}
+
+@media only screen and (max-width: 900px) {
+    .converter-container {
+        width: 90%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .converter-input, .converter-select, .convert-button, .copy-button, .theme-button {
+        font-size: 1em;
+        padding: 12px;
+    }
+
+    .converter-result {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .converter-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .converter-input, .converter-select, .convert-button, .copy-button, .theme-button {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    .converter-result {
+        font-size: 1em;
+    }
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-container .logo-text {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FF7F27; /* Similar orange color to AccuWeather */
+}
+
+#search {
+    display: inline-flex;
+
+}
+.logo-container .logo-text span {
+    color: black; /* To differentiate part of the text if needed */
+}
